@@ -1,0 +1,38 @@
+# Dependencies
+gems:
+  - jekyll-paginate
+  - redcarpet
+  - jekyll-gist
+markdown: redcarpet
+redcarpet:
+    extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:            /:title
+relative_permalinks:  false
+
+# Setup
+title:                Onur Özgür ÖZKAN
+tagline:              'düşüncelerim & deneyimlerim'
+description:          'Onur Özgür ÖZKAN'
+url:                  http://www.onurozgurozkan.com
+baseurl:              ''
+paginate:             5
+
+# About/contact
+author:
+  name:              Onur Özgür ÖZKAN
+  url:               https://twitter.com/onurozgurozkan
+  email:             onur.ozgur.ozkan@bulutfon.com
+
+# Custom vars
+version:             1.0.0
+
+timezone: Europe/Istanbul
+
+pages_list:
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
